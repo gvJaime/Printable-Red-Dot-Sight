@@ -7,3 +7,5 @@ may support any other tipe of mounting.
 
 The sight will work with next to no circuitry, being a red led and a 3V button
 cell the only components.
+
+The lens will be attempted to be made with acetate sheet, but in the event of this failing, another possibilities will be considered.
