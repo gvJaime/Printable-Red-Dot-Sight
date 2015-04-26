@@ -1,9 +1,0 @@
-import Part, math
-
-# create a parabola
-parabola=Part.Parabola()
-# rotate the curve around the x-Axis and the origin (0,0,0)
-revol=Part.SurfaceOfRevolution(parabola,App.Vector(0,0,0),App.Vector(1,0,0))
-# create a shape out of the surface geometry in order to make it visible
-shape=revol.toShape(0,math.pi, -5, 5)
-Part.show(shape)
